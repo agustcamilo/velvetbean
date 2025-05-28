@@ -224,6 +224,69 @@ form {
     margin-right: auto;
 }
 
+/* Estilo Tipos Tostados*/
+.contenedor-cafe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #faf5f0;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+/* Estilo Texto Tipos Tostados*/
+#contenedor-cafe-descripcion {
+    width: 60%;
+    padding: 20px;
+    background-color: #ddd9d4;
+
+}
+
+#texto-descripcion {
+    color: #4a4a4a;
+    line-height: 1.6;
+    text-align: center;
+}
+
+#texto-descripcion h2 {
+    color: #6b4f1d;
+    margin-bottom: 15px;
+}
+
+/* Estilos para botones */
+.btn-izquierda a {
+    display: inline-block;
+    width: 100px;
+    margin-top: 250px;
+    margin-left: 80px;
+    background-color: #6b4f1d;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.btn-derecha a {
+    display: inline-block;
+    width: 100px;
+    margin-top: 250px;
+    margin-right: 80px;
+    background-color: #6b4f1d;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.btn-izquierda button:hover,
+.btn-derecha button:hover {
+    background-color: #503a12;
+}
+
 /*--------------------------    FOOTER ------------------*/
 
 footer {
