@@ -108,6 +108,83 @@ header nav ul li {
     background-color: #333;
 }
 
+/* Seccion de contacto solo texto */
+.sec-contenedor-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #111;
+    min-height: auto;
+    color: white;
+    padding: 20px 80px;
+    flex-wrap: wrap;
+    max-width: auto;
+}
+
+.sec-contenedor-contacto-seccion {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 40px;
+    min-height: 500px;
+    justify-content: space-between;
+}
+
+.contacto-div-item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.p-contacto-item-tittle {
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+.p-contacto-item-text-1 {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Seccion de contacto ingreso datos */
+
+.sec-contenedor-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-contenedor-datos {
+    margin: 10px;
+    padding: 10px;
+}
+
+.sec-contenedor-ingreso {
+    padding: 6px 20px;
+}
+
+form {
+    min-height: 100px;
+    background-color: #111;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    color: white;
+}
+
+.sec-contenedor-item {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: 2px solid #666;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
 
 /*--------------------------    FOOTER ------------------*/
 
