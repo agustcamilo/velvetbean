@@ -185,6 +185,44 @@ form {
     margin: 10px 0;
 }
 
+/* Pagina Nosotros*/
+.nosotros {
+    display: flex;
+    background-color: #f9f5f1;
+    padding: 60px 20px;
+    justify-content: center;
+}
+
+.nosotros>div {
+    max-width: 900px;
+    text-align: center;
+}
+
+.nosotros img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nosotros h1 {
+    font-size: 3rem;
+    color: #4b2e05;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.nosotros p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #4a4a4a;
+    margin-bottom: 22px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*--------------------------    FOOTER ------------------*/
 
