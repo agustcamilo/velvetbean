@@ -17,9 +17,12 @@ header {
     justify-items: center;
 }
 
-.header-logo {
+.header-logo{
     color: #e7dfd4;
     text-decoration: none;
+}
+
+.header-logo img{
     height: 10px;
     width: auto;
 }
