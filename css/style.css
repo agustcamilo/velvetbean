@@ -13,7 +13,7 @@ body {
 /*-------------------------- HEADER ---------------------------------------- */
 
 header {
-    background-color: #111;
+    background-color: #222222;
     justify-items: center;
 }
 
@@ -51,25 +51,6 @@ header nav ul li {
     text-align: center;
     width: 100%;
     max-width: 100%;
-}
-
-@media (max-width: 770px) {
-    .inicio {
-        display: block !important;
-        width: 100%;
-        margin-left: -1px;
-    }
-}
-
-@media (max-width: 768px) {
-    .carousel-caption {
-        display: block !important;
-        position: static;
-        background: rgba(0, 0, 0, 0.5);
-        padding: 10px;
-        color: white;
-        text-align: center;
-    }
 }
 
 .p-destacado {
