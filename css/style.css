@@ -18,10 +18,9 @@ header {
 }
 
 .header-logo {
-    font-weight: 800;
-    font-size: 30px;
-    color: white;
+    color: #e7dfd4;
     text-decoration: none;
+    height: 30px ;
 }
 
 header nav ul li {
