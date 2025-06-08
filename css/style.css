@@ -20,7 +20,8 @@ header {
 .header-logo {
     color: #e7dfd4;
     text-decoration: none;
-    height: 30px ;
+    height: 10px;
+    width: auto;
 }
 
 header nav ul li {
