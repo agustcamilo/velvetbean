@@ -51,14 +51,6 @@ header nav ul li {
     max-width: 100%;
 }
 
-.p-destacado {
-    text-align: center;
-    margin-top: 40px;
-    grid-column: -1 / -1;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
 .sec-destacado-contenedor {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -69,6 +61,14 @@ header nav ul li {
     position: relative;
     gap: 10px;
     justify-content: center;
+}
+
+.p-destacado {
+    text-align: center;
+    margin-top: 40px;
+    grid-column: 1 / -1;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .sec-destacado-item {
