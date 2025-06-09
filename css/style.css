@@ -53,20 +53,19 @@ header nav ul li {
 
 .sec-destacado-contenedor {
     display: grid;
-    grid-template-columns: auto auto auto;
-    width: 80%;
+    grid-template-columns: repeat(3, 250px); /* Fuerza 3 columnas exactas */
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
-    padding: 20px;
-    position: relative;
-    gap: 10px;
+    padding: 40px 0;
     justify-content: center;
 }
 
 .p-destacado {
-    text-align: center;
-    margin-top: 40px;
     grid-column: 1 / -1;
+    text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -77,9 +76,8 @@ header nav ul li {
     border: 2px solid black;
     border-radius: 5px;
     background-color: lightblue;
-    margin: 15px;
-    line-height: 150px;
     position: relative;
+    overflow: hidden;
 }
 
 .sec-destacado-contenedor div img {
