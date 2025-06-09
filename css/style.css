@@ -68,7 +68,7 @@ header nav ul li {
     padding: 20px;
     position: relative;
     gap: 10px;
-justify-content: center;
+    justify-content: center;
 }
 
 .sec-destacado-item {
@@ -203,17 +203,19 @@ form {
 
 /* Pagina Nosotros*/
 .nosotros {
-  display: grid;
-  grid-template-areas:
-    "img1 texto1"
-    "texto2 img2"
-    "img3 img3";
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  padding: 150px 20px;
-  background-color: #f9f5f1;
-  align-items: center; /* alinea verticalmente */
-  justify-items: center; /* alinea horizontalmente */
+    display: grid;
+    grid-template-areas:
+        "img1 texto1"
+        "texto2 img2"
+        "img3 img3";
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 150px 20px;
+    background-color: #f9f5f1;
+    align-items: center;
+    /* alinea verticalmente */
+    justify-items: center;
+    /* alinea horizontalmente */
 }
 
 .nosotros>div {
@@ -231,20 +233,24 @@ form {
 }
 
 .nosotrosimg1 {
-  grid-area: img1;
+    grid-area: img1;
 }
+
 .nosotros-texto1 {
-  grid-area: texto1;
+    grid-area: texto1;
 }
+
 .nosotros-texto2 {
-  grid-area: texto2;
+    grid-area: texto2;
 }
+
 .nosotrosimg2 {
-  grid-area: img2;
+    grid-area: img2;
 }
+
 .nosotrosimg3 {
-  grid-area: img3;
-  text-align: center;
+    grid-area: img3;
+    text-align: center;
 }
 
 .nosotros h1 {
@@ -536,13 +542,13 @@ footer p {
         justify-content: center;
     }
 
-    .nosotros{
+    .nosotros {
         grid-template-areas:
-        "img1"
-        "texto1"
-        "img2"
-        "texto2"
-        "img3";
+            "img1"
+            "texto1"
+            "img2"
+            "texto2"
+            "img3";
         grid-template-columns: 1fr;
     }
 }
