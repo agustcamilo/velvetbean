@@ -54,7 +54,7 @@ header nav ul li {
 .p-destacado {
     text-align: center;
     margin-top: 40px;
-    grid-column: 1 / -1;
+    grid-column: -1 / -1;
     font-size: 24px;
     margin-bottom: 20px;
 }
