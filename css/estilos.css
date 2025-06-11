@@ -10,18 +10,18 @@ body {
   flex-direction: column;
 }
 
-.header .navbar {
+header .navbar {
   background-color: #222222;
   padding: 1rem 2rem;
 }
-.header .navbar .header-logo img {
+header .header-logo img {
   height: 50px;
   width: auto;
 }
-.header .navbar .navbar-nav li {
+header nav ul li {
   margin: 10px;
 }
-.header .navbar .navbar-nav li .nav-link {
+header nav ul li .nav-link {
   color: #e7dfd4 !important;
   margin: 10px 30px;
 }

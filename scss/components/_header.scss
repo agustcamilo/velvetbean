@@ -1,19 +1,23 @@
-.header {
+header {
     .navbar {
         background-color: #222222;
         padding: 1rem 2rem;
+    }
 
-        .header-logo img {
+    .header-logo {
+        img {
             height: 50px;
             width: auto;
         }
+    }
 
-        .navbar-nav {
+    nav {
+        ul {
             li {
                 margin: 10px;
 
                 .nav-link {
-                    color: $color-navbar !important;
+                    color: #e7dfd4 !important;
                     margin: 10px 30px;
                 }
             }
