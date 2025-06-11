@@ -248,62 +248,58 @@ main {
         margin: 150px 20px 50px 20px;
         justify-items: center;
         align-items: center;
+    }
 
-        // Imagen
-        &-img {
-            grid-area: imagen;
+    .contenedor-cafe-img {
+        grid-area: imagen;
+        width: 100%;
+
+        img {
             width: 100%;
-
-            img {
-                width: 100%;
-                height: auto;
-                object-fit: cover;
-                display: block;
-                border-radius: 10px;
-            }
-        }
-
-        // Descripción
-        &-descripcion {
-            grid-area: descripcion;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 10px;
-        }
-
-        // Botones
-        &-btn-izquierda {
-            grid-area: btn-izq;
-            display: flex;
-            justify-content: flex-start;
-        }
-
-        &-btn-derecha {
-            grid-area: btn-der;
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        // Botones comunes
-        &-btn-izquierda a,
-        &-btn-derecha a {
-            width: 100px;
-            background-color: #6b4f1d;
-            color: white;
-            border-radius: 8px;
-            text-align: center;
-            text-decoration: none;
-            padding: 10px 15px;
-            transition: background-color 0.3s ease;
-
-            &:hover {
-                background-color: #503a12;
-            }
+            height: auto;
+            object-fit: cover;
+            display: block;
+            border-radius: 10px;
         }
     }
 
-    // Texto de descripción
+    .contenedor-cafe-descripcion {
+        grid-area: descripcion;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .contenedor-btn-izquierda {
+        grid-area: btn-izq;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .contenedor-btn-derecha {
+        grid-area: btn-der;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .contenedor-btn-izquierda a,
+    .contenedor-btn-derecha a {
+        width: 100px;
+        background-color: #6b4f1d;
+        color: white;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 15px;
+        transition: background-color 0.3s ease;
+    }
+
+    .contenedor-btn-izquierda a:hover,
+    .contenedor-btn-derecha a:hover {
+        background-color: #503a12;
+    }
+
     #texto-descripcion {
         color: #4a4a4a;
         line-height: 1.6;
@@ -314,6 +310,7 @@ main {
             margin-bottom: 15px;
         }
     }
+
 
 
 }

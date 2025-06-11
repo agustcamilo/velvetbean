@@ -252,17 +252,18 @@ main .contenedor-cafe-descripcion {
   justify-content: center;
   padding: 10px;
 }
-main .contenedor-cafe-btn-izquierda {
+main .contenedor-btn-izquierda {
   grid-area: btn-izq;
   display: flex;
   justify-content: flex-start;
 }
-main .contenedor-cafe-btn-derecha {
+main .contenedor-btn-derecha {
   grid-area: btn-der;
   display: flex;
   justify-content: flex-end;
 }
-main .contenedor-cafe-btn-izquierda a, main .contenedor-cafe-btn-derecha a {
+main .contenedor-btn-izquierda a,
+main .contenedor-btn-derecha a {
   width: 100px;
   background-color: #6b4f1d;
   color: white;
@@ -272,7 +273,8 @@ main .contenedor-cafe-btn-izquierda a, main .contenedor-cafe-btn-derecha a {
   padding: 10px 15px;
   transition: background-color 0.3s ease;
 }
-main .contenedor-cafe-btn-izquierda a:hover, main .contenedor-cafe-btn-derecha a:hover {
+main .contenedor-btn-izquierda a:hover,
+main .contenedor-btn-derecha a:hover {
   background-color: #503a12;
 }
 main #texto-descripcion {
