@@ -173,6 +173,18 @@ main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-f
   background-color: #333;
 }
 
+footer {
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer p {
+  color: white;
+  font-size: 14px;
+  margin: 10px;
+}
+
 @media (max-width: 767.98px) {
   .logo-img {
     height: 40px;
