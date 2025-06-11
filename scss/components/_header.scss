@@ -1,17 +1,17 @@
 header {
-    nav {
+    .navbar {
         background-color: #222222;
         padding: 1rem 2rem;
-    }
 
-    a {
-        img {
-            height: 50px;
-            width: auto;
+        .header-logo {
+            img {
+                height: 50px;
+                width: auto;
+            }
         }
-    }
-        ul {
-            li {
+
+        .navbar-nav {
+            .nav-item {
                 margin: 10px;
 
                 .nav-link {
@@ -19,5 +19,6 @@ header {
                     margin: 10px 30px;
                 }
             }
+        }
     }
 }
