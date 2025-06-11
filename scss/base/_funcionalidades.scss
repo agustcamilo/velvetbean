@@ -2,3 +2,11 @@
 
 $color-navbar: #e7dfd4 ;
 $color-fondo: #f9f5f1 ;
+
+
+//* MIXIN
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
