@@ -150,16 +150,20 @@
 }
 
 @media (max-width: 768px) {
-  .contenedor-cafe  {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: auto;
+    .contenedor-cafe {
+        grid-template-areas:
+            "img"
+            "texto-descripcion"
+            "contenedor-btn-izquierda"
+            "contenedor-btn-derecha";
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
 
     .contenedor-btn-izquierda,
     .contenedor-btn-derecha {
-      justify-content: center;
-      display: flex;
-    }
+        justify-content: center;
+    
   }
     .nosotros {
         grid-template-areas:
