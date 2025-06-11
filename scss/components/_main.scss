@@ -1,5 +1,5 @@
 main {
-
+    background-color: $color-fondo;
     // Carrusel
     .carrusel {
         img {
@@ -45,7 +45,6 @@ main {
             height: 250px;
             border: 2px solid black;
             border-radius: 5px;
-            background-color: lightblue;
             position: relative;
             overflow: hidden;
 
@@ -181,7 +180,7 @@ main {
         grid-template-columns: 1fr 1fr;
         gap: 40px;
         padding: 150px 20px;
-        background-color: #f9f5f1;
+        background-color: $color-fondo;
         align-items: center; // alinea verticalmente
         justify-items: center; // alinea horizontalmente
 
