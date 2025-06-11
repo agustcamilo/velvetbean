@@ -430,6 +430,7 @@ footer p {
 }
 @media (max-width: 768px) {
   .contenedor-cafe {
+    display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
   }
