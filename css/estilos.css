@@ -302,9 +302,9 @@ footer p {
 }
 
 @media (max-width: 767.98px) {
-  .logo-img {
+  .header-logo img {
     height: 40px;
-    /* o el tamaño que prefieras en móviles */
+    width: auto;
   }
   .header .navbar {
     background-color: #222222;
