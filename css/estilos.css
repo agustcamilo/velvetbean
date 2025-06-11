@@ -327,5 +327,44 @@ footer p {
     align-items: center;
   }
 }
+@media (max-width: 978.98px) {
+  .sec-contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #111;
+    min-height: auto;
+    color: white;
+    padding: 20px 80px;
+    flex-wrap: wrap;
+    max-width: auto;
+  }
+  .sec-contenedor-contacto .sec-contenedor-contacto-seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #111;
+    min-height: auto;
+    color: white;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .sec-contenedor-contacto .contacto-div-item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .sec-contenedor-contacto .p-contacto-item-tittle {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  .sec-contenedor-contacto .p-contacto-item-text-1 {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
