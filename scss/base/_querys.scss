@@ -79,7 +79,6 @@
             line-height: 150px;
             float: left;
             position: relative;
-        }
 
         img {
             width: 100%;
@@ -102,6 +101,7 @@
             line-height: 4;
             /* O un valor menor, según se requiera */
         }
+    }
     }
 }
 
@@ -146,5 +146,32 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor-cafe {
+        grid-template-areas:
+            "imagen"
+            "descripcion"
+            "btn-izq"
+            "btn-der";
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .contenedor-btn-izquierda,
+    .contenedor-btn-derecha {
+        justify-content: center;
+    }
+
+    .nosotros {
+        grid-template-areas:
+            "img1"
+            "texto1"
+            "img2"
+            "texto2"
+            "img3";
+        grid-template-columns: 1fr;
     }
 }

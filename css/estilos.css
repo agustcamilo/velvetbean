@@ -368,12 +368,12 @@ footer p {
     float: left;
     position: relative;
   }
-  .sec-destacado-contenedor img {
+  .sec-destacado-contenedor .sec-destacado-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .sec-destacado-contenedor .btn-comprar {
+  .sec-destacado-contenedor .sec-destacado-item .btn-comprar {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -426,6 +426,21 @@ footer p {
   .sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text .p-contacto-item-text-1 {
     font-size: 16px;
     margin-bottom: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-cafe {
+    grid-template-areas: "imagen" "descripcion" "btn-izq" "btn-der";
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .contenedor-btn-izquierda,
+  .contenedor-btn-derecha {
+    justify-content: center;
+  }
+  .nosotros {
+    grid-template-areas: "img1" "texto1" "img2" "texto2" "img3";
+    grid-template-columns: 1fr;
   }
 }
 
