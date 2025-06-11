@@ -430,6 +430,7 @@ footer p {
 }
 @media (max-width: 768px) {
   .contenedor-cafe {
+    display: grid;
     grid-template-areas: "imagen" "descripcion" "btn-izq" "btn-der";
     grid-template-columns: 1fr;
     justify-items: center;
