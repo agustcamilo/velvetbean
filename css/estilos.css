@@ -26,12 +26,12 @@ header .navbar .navbar-nav .nav-item .nav-link {
   margin: 10px 30px;
 }
 
-.carrusel img {
+main .carrusel img {
   width: 400px;
   height: 500px;
   object-fit: cover;
 }
-.carrusel .inicio {
+main .carrusel .inicio {
   padding: 30px;
   background-color: rgba(47, 45, 45, 0.632);
   border-radius: 8px;
@@ -42,8 +42,7 @@ header .navbar .navbar-nav .nav-item .nav-link {
   width: 100%;
   max-width: 100%;
 }
-
-.sec-destacado-contenedor {
+main .sec-destacado-contenedor {
   display: grid;
   grid-template-columns: repeat(3, 250px);
   gap: 20px;
@@ -54,13 +53,13 @@ header .navbar .navbar-nav .nav-item .nav-link {
   padding: 40px 0;
   justify-content: center;
 }
-.sec-destacado-contenedor .p-destacado {
+main .sec-destacado-contenedor .p-destacado {
   grid-column: 1/-1;
   text-align: center;
   font-size: 24px;
   margin-bottom: 20px;
 }
-.sec-destacado-contenedor .sec-destacado-item {
+main .sec-destacado-contenedor .sec-destacado-item {
   width: 250px;
   height: 250px;
   border: 2px solid black;
@@ -69,12 +68,12 @@ header .navbar .navbar-nav .nav-item .nav-link {
   position: relative;
   overflow: hidden;
 }
-.sec-destacado-contenedor .sec-destacado-item img {
+main .sec-destacado-contenedor .sec-destacado-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.sec-destacado-contenedor .sec-destacado-item .btn-comprar {
+main .sec-destacado-contenedor .sec-destacado-item .btn-comprar {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -88,8 +87,7 @@ header .navbar .navbar-nav .nav-item .nav-link {
   border-radius: 5px;
   line-height: 4;
 }
-
-.sec-contenedor-contacto {
+main .sec-contenedor-contacto {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -99,7 +97,7 @@ header .navbar .navbar-nav .nav-item .nav-link {
   padding: 20px 80px;
   flex-wrap: wrap;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -107,28 +105,28 @@ header .navbar .navbar-nav .nav-item .nav-link {
   min-height: 500px;
   justify-content: space-between;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text .p-contacto-item-tittle {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text .p-contacto-item-tittle {
   font-size: 50px;
   margin-top: 150px;
   margin-bottom: 10px;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text .p-contacto-item-text-1 {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text .p-contacto-item-text-1 {
   font-size: 16px;
   margin-bottom: 40px;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form {
   display: flex;
   width: 100%;
   flex-direction: column;
   align-items: center;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form {
   min-height: 100px;
   background-color: #111;
   width: 100%;
@@ -136,19 +134,19 @@ header .navbar .navbar-nav .nav-item .nav-link {
   margin: auto;
   color: white;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos {
   margin: 10px;
   padding: 10px;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos .sec-contenedor-ingreso {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos .sec-contenedor-ingreso {
   padding: 6px 20px;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos .sec-contenedor-ingreso label {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos .sec-contenedor-ingreso label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos .sec-contenedor-ingreso .sec-contenedor-item {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos .sec-contenedor-ingreso .sec-contenedor-item {
   width: 100%;
   box-sizing: border-box;
   padding: 6px 12px;
@@ -156,7 +154,11 @@ header .navbar .navbar-nav .nav-item .nav-link {
   border-radius: 4px;
   margin: 10px 0;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos .btn-enviar {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos .sec-contenedor-ingreso textarea.sec-contenedor-item {
+  resize: vertical;
+  min-height: 80px;
+}
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos .btn-enviar {
   width: 100%;
   padding: 12px;
   background-color: #666;
@@ -167,7 +169,7 @@ header .navbar .navbar-nav .nav-item .nav-link {
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
-.sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos .btn-enviar:hover {
+main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form form .sec-contenedor-datos .btn-enviar:hover {
   background-color: #333;
 }
 
