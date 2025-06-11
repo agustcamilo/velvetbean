@@ -176,11 +176,11 @@
 
     .nosotros {
         grid-template-areas:
-            "img1"
-            "texto1"
-            "img2"
-            "texto2"
-            "img3";
+            "nosotrosimg1"
+            "nosotros-texto1"
+            "nosotrosimg2"
+            "nosotros-texto2"
+            "nosotrosimg3";
         grid-template-columns: 1fr;
     }
 }
