@@ -434,8 +434,8 @@ footer p {
     grid-template-columns: 1fr;
     justify-items: center;
   }
-  .contenedor-btn-izquierda,
-  .contenedor-btn-derecha {
+  .contenedor-cafe .contenedor-btn-izquierda,
+  .contenedor-cafe .contenedor-btn-derecha {
     justify-content: center;
   }
   .nosotros {
