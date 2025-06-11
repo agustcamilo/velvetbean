@@ -150,13 +150,30 @@
 }
 
 @media (max-width: 768px) {
-  .contenedor-cafe {
-    grid-template-areas:
-      "imagen"
-      "descripcion"
-      "btn-izq"
-      "btn-der";
-    grid-template-columns: 1fr;
-    justify-items: center;
-}
+    .contenedor-cafe {
+        grid-template-areas:
+            "imagen"
+            "descripcion"
+            "btn-izq"
+            "btn-der";
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+        .contenedor-cafe-img {
+            grid-area: imagen;
+        }
+
+        .contenedor-cafe-descripcion {
+            grid-area: descripcion;
+        }
+
+        .contenedor-btn-izquierda {
+            grid-area: btn-izq;
+        }
+
+        .contenedor-btn-derecha {
+            grid-area: btn-der;
+        }
+
+    }
 }

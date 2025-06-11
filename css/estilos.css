@@ -434,6 +434,18 @@ footer p {
     grid-template-columns: 1fr;
     justify-items: center;
   }
+  .contenedor-cafe .contenedor-cafe-img {
+    grid-area: imagen;
+  }
+  .contenedor-cafe .contenedor-cafe-descripcion {
+    grid-area: descripcion;
+  }
+  .contenedor-cafe .contenedor-btn-izquierda {
+    grid-area: btn-izq;
+  }
+  .contenedor-cafe .contenedor-btn-derecha {
+    grid-area: btn-der;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
