@@ -26,6 +26,9 @@ header .navbar .navbar-nav .nav-item .nav-link {
   margin: 10px 30px;
 }
 
+main {
+  background-color: red;
+}
 main .carrusel img {
   width: 400px;
   height: 500px;
