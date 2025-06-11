@@ -18,10 +18,10 @@ body {
   height: 50px;
   width: auto;
 }
-.header .navbar .header nav ul li {
+.header .navbar .navbar-nav li {
   margin: 10px;
 }
-.header .navbar .header nav ul li .nav-link {
+.header .navbar .navbar-nav li .nav-link {
   color: #e7dfd4 !important;
   margin: 10px 30px;
 }
