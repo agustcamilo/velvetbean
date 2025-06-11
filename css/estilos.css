@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 body {
   font-family: "Nunito", sans-serif;
@@ -303,7 +302,7 @@ footer p {
 
 @media (max-width: 767.98px) {
   .header .navbar {
-    background-color: #222222;
+    background-color: #ee1414;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -326,106 +325,6 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-}
-@media (max-width: 978.98px) {
-  .sec-contenedor-contacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: #111;
-    min-height: auto;
-    color: white;
-    padding: 20px 80px;
-    flex-wrap: wrap;
-    max-width: auto;
-  }
-  .sec-contenedor-contacto .sec-contenedor-contacto-seccion {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #111;
-    min-height: auto;
-    color: white;
-    padding: 0px 0px !important;
-    flex-wrap: wrap;
-    gap: 0px !important;
-  }
-  .sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .sec-contenedor-contacto .sec-contenedor-contacto-seccion .p-contacto-item-tittle {
-    font-size: 50px;
-    margin-top: 10px !important;
-  }
-  .sec-contenedor-contacto .sec-contenedor-contacto-seccion .p-contacto-item-text-1 {
-    font-size: 16px;
-    margin-bottom: 40px;
-  }
-}
-@media (max-width: 978.98px) {
-  .carrusel img {
-    width: 400px;
-    height: 500px;
-    object-fit: cover;
-  }
-  .carrusel .inicio {
-    padding: 15px;
-    margin: 10px;
-    font-size: 12px;
-    line-height: 1.5;
-    background-color: rgba(0, 0, 0, 0.6);
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-  }
-  .sec-destadado-contenedor .p-destacado {
-    text-align: center;
-    margin-top: 40px;
-  }
-  .sec-destacado-contenedor {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    gap: 10px;
-    justify-items: center;
-  }
-  .sec-destadado-contenedor .sec-destacado-item {
-    width: 250px;
-    height: 250px;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: lightblue;
-    margin: 15px;
-    line-height: 150px;
-    float: left;
-    position: relative;
-  }
-  .sec-destadado-contenedor .sec-destacado-item .sec-destacado-contenedor div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .sec-destadado-contenedor .sec-destacado-item .btn-comprar {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.767);
-    color: white;
-    border: none;
-    padding: 1px 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 5px;
-    line-height: 4;
-    /* O un valor menor, según se requiera */
   }
 }
 
