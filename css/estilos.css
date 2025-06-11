@@ -430,18 +430,9 @@ footer p {
 }
 @media (max-width: 768px) {
   .contenedor-cafe {
-    display: grid;
     grid-template-areas: "imagen" "descripcion" "btn-izq" "btn-der";
     grid-template-columns: 1fr;
     justify-items: center;
-  }
-  .contenedor-cafe .contenedor-btn-izquierda,
-  .contenedor-cafe .contenedor-btn-derecha {
-    justify-content: center;
-  }
-  .nosotros {
-    grid-template-areas: "img1" "texto1" "img2" "texto2" "img3";
-    grid-template-columns: 1fr;
   }
 }
 
