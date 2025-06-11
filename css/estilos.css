@@ -225,6 +225,65 @@ main .nosotros p {
   margin-left: auto;
   margin-right: auto;
 }
+main .contenedor-cafe {
+  display: grid;
+  grid-template-areas: "imagen descripcion" "btn-izq btn-der";
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 150px 20px 50px 20px;
+  justify-items: center;
+  align-items: center;
+}
+main .contenedor-cafe-img {
+  grid-area: imagen;
+  width: 100%;
+}
+main .contenedor-cafe-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+main .contenedor-cafe-descripcion {
+  grid-area: descripcion;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+main .contenedor-cafe-btn-izquierda {
+  grid-area: btn-izq;
+  display: flex;
+  justify-content: flex-start;
+}
+main .contenedor-cafe-btn-derecha {
+  grid-area: btn-der;
+  display: flex;
+  justify-content: flex-end;
+}
+main .contenedor-cafe-btn-izquierda a, main .contenedor-cafe-btn-derecha a {
+  width: 100px;
+  background-color: #6b4f1d;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+main .contenedor-cafe-btn-izquierda a:hover, main .contenedor-cafe-btn-derecha a:hover {
+  background-color: #503a12;
+}
+main #texto-descripcion {
+  color: #4a4a4a;
+  line-height: 1.6;
+  text-align: center;
+}
+main #texto-descripcion h2 {
+  color: #6b4f1d;
+  margin-bottom: 15px;
+}
 
 footer {
   background-color: #0c0c0c;
