@@ -33,14 +33,16 @@
         }
     }
 
-    .contenedor-cafe {
-        grid-template-areas:
-            "imagen"
-            "descripcion"
-            "btn-izq"
-            "btn-der";
-        grid-template-columns: 1fr;
-        justify-items: center;
+    .main {
+        .contenedor-cafe {
+            grid-template-areas:
+                "imagen"
+                "descripcion"
+                "btn-izq"
+                "btn-der";
+            grid-template-columns: 1fr;
+            justify-items: center;
+        }
     }
 }
 
