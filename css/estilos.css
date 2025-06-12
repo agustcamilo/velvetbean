@@ -327,22 +327,10 @@ footer p {
     flex-direction: column;
     align-items: center;
   }
-  .main .contenedor-cafe {
+  .contenedor-cafe {
     grid-template-areas: "imagen" "descripcion" "btn-izq" "btn-der";
     grid-template-columns: 1fr;
     justify-items: center;
-  }
-  .main .contenedor-cafe .contenedor-cafe-img {
-    grid-area: imagen;
-  }
-  .main .contenedor-cafe .contenedor-cafe-descripcion {
-    grid-area: descripcion;
-  }
-  .main .contenedor-cafe .contenedor-btn-izquierda {
-    grid-area: btn-izq;
-  }
-  .main .contenedor-cafe .contenedor-btn-derecha {
-    grid-area: btn-der;
   }
 }
 @media (max-width: 767.98px) and (max-width: 978.98px) {
@@ -405,8 +393,6 @@ footer p {
     line-height: 4;
     /* O un valor menor, según se requiera */
   }
-}
-@media (max-width: 767.98px) and (max-width: 978.98px) {
   .sec-contenedor-contacto {
     display: flex;
     flex-direction: column;
@@ -442,7 +428,7 @@ footer p {
   }
   .sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text .p-contacto-item-text-1 {
     font-size: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 41px;
   }
 }
 
