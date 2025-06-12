@@ -4,24 +4,4 @@ $color-navbar: #e7dfd4;
 $color-fondo: #f9f5f1;
 
 
-// Mixin para botones con hover
-@mixin estilo-boton($bg-color, $hover-color) {
-    width: 100px;
-    background-color: $bg-color;
-    color: white;
-    border-radius: 8px;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease;
-
-    &:hover {
-        background-color: $hover-color;
-    }
-}
-
-%centrado-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+// Mixin para botones con hove

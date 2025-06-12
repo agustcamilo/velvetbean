@@ -1,5 +1,3 @@
-@use 'funcionalidades';
-
 main {
     background-color: $color-fondo;
 
@@ -174,7 +172,6 @@ main {
         }
     }
 
-    // Nosotros
     .nosotros {
         display: grid;
         grid-template-areas:
@@ -185,8 +182,8 @@ main {
         gap: 40px;
         padding: 150px 20px;
         background-color: $color-fondo;
-        align-items: center;
-        justify-items: center;
+        align-items: center; // alinea verticalmente
+        justify-items: center; // alinea horizontalmente
 
         >div {
             max-width: 900px;
@@ -220,7 +217,6 @@ main {
         }
     }
 
-    // Contenedor café
     .contenedor-cafe {
         display: grid;
         grid-template-areas:
@@ -254,23 +250,33 @@ main {
         }
     }
 
-    // Botones reutilizando funcionalidades
     .contenedor-btn-izquierda {
         grid-area: btn-izq;
-        @extend %funcionalidades.centrado-flex;
+        display: flex;
+        justify-content: flex-start;
     }
 
     .contenedor-btn-derecha {
         grid-area: btn-der;
-        @extend %funcionalidades.centrado-flex;
+        display: flex;
+        justify-content: flex-end;
     }
 
-    .contenedor-btn-izquierda a {
-        @include funcionalidades.estilo-boton(#6b4f1d, #503a12);
-    }
-
+    .contenedor-btn-izquierda a,
     .contenedor-btn-derecha a {
-        @include funcionalidades.estilo-boton(#6b4f1d, #503a12);
+        width: 100px;
+        background-color: #6b4f1d;
+        color: white;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 15px;
+        transition: background-color 0.3s ease;
+    }
+
+    .contenedor-btn-izquierda a:hover,
+    .contenedor-btn-derecha a:hover {
+        background-color: #503a12;
     }
 
     #texto-descripcion {
@@ -283,4 +289,7 @@ main {
             margin-bottom: 15px;
         }
     }
+
+
+
 }
