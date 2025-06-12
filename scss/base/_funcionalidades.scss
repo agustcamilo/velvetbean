@@ -1,27 +1,68 @@
 //* VARIABLES
 
 $color-navbar: #e7dfd4;
-$color-fondo: #f9f5f1;
+$color-fondo: #f5f5f5;
+$color-boton: #6b4f1d;
+$color-hover: #503a12;
+$color-texto: #4a4a4a;
+$color-titulo: #4b2e05;
 
-//EXTEND
-%centrado-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+// Mixin para flexbox
+@mixin flex($display, $justify, $align) {
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
 }
 
-// Mixin para botones con hove
-@mixin estilo-boton($color, $hover-color) {
-    width: 100px;
-    background-color: $color;
-    color: white;
-    border-radius: 8px;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease;
+// Mixin para imágenes ajustadas
+@mixin img-ajustada($radius: 10px) {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: $radius;
+}
 
-    &:hover {
-        background-color: $hover-color;
-    }
+// Mixin para botón
+@mixin estilo-boton($bg, $hover) {
+  width: 100px;
+  background-color: $bg;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $hover;
+  }
+}
+
+// Placeholder para flex centrado
+%centrado-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Placeholder para párrafo base
+%parrafo {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: $color-texto;
+}
+
+// Placeholder para títulos
+%titulo-centrado {
+  font-size: 3rem;
+  color: $color-titulo;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+// Placeholder para botón estilizado
+%estilo-boton {
+  @include estilo-boton($color-boton, $color-hover);
 }
