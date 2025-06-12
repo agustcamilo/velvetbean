@@ -183,6 +183,7 @@ main {
 
     img {
       @include img-ajustada(12px);
+      grid-area: img;
       max-height: 350px;
       margin-bottom: 30px;
       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
