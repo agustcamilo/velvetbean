@@ -220,18 +220,18 @@ main .contenedor-cafe {
   justify-items: center;
   align-items: center;
 }
-main .contenedor-cafe-img {
+main .contenedor-cafe .contenedor-cafe-img {
   grid-area: imagen;
   width: 100%;
 }
-main .contenedor-cafe-img img {
+main .contenedor-cafe .contenedor-cafe-img img {
   width: 100%;
   height: auto;
   object-fit: cover;
   display: block;
   border-radius: 10px;
 }
-main .contenedor-cafe-descripcion {
+main .contenedor-cafe .contenedor-cafe-descripcion {
   grid-area: descripcion;
   display: flex;
   flex-direction: column;
