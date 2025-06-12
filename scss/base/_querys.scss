@@ -34,8 +34,8 @@
     }
 }
 
-@media (max-width: 767.98px){
-     main {
+@media (max-width: 767.98px) {
+    main {
         .contenedor-cafe {
             grid-template-areas:
                 "imagen"
@@ -45,10 +45,11 @@
             grid-template-columns: 1fr;
             justify-items: center;
         }
-            .contenedor-btn-izquierda,
-            .contenedor-btn-derecha {
-                justify-content: center;
-            }
+
+        .contenedor-btn-izquierda,
+        .contenedor-btn-derecha {
+            justify-content: center;
+        }
 
         .nosotros {
             grid-template-areas:
