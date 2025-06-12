@@ -201,7 +201,7 @@ main {
     }
   }
 
-  // Café
+  // Cafe
   .contenedor-cafe {
     display: grid;
     grid-template-areas:
@@ -246,7 +246,7 @@ main {
     @extend %estilo-boton;
   }
 
-  // Texto descripción
+  // Texto descripcion
   #texto-descripcion {
     color: $color-texto;
     line-height: 1.6;

@@ -14,7 +14,7 @@ $color-titulo: #4b2e05;
   align-items: $align;
 }
 
-// Mixin para imágenes ajustadas
+// Mixin para imagenes ajustadas
 @mixin img-ajustada($radius: 10px) {
   width: 100%;
   height: auto;
@@ -23,7 +23,7 @@ $color-titulo: #4b2e05;
   border-radius: $radius;
 }
 
-// Mixin para botón
+// Mixin para boton
 @mixin estilo-boton($bg, $hover) {
   width: 100px;
   background-color: $bg;
@@ -46,14 +46,14 @@ $color-titulo: #4b2e05;
   align-items: center;
 }
 
-// Placeholder para párrafo base
+// Placeholder para parrafo base
 %parrafo {
   font-size: 1.15rem;
   line-height: 1.7;
   color: $color-texto;
 }
 
-// Placeholder para títulos
+// Placeholder para titulos
 %titulo-centrado {
   font-size: 3rem;
   color: $color-titulo;
@@ -62,7 +62,7 @@ $color-titulo: #4b2e05;
   letter-spacing: 2px;
 }
 
-// Placeholder para botón estilizado
+// Placeholder para boton estilizado
 %estilo-boton {
   @include estilo-boton($color-boton, $color-hover);
 }
