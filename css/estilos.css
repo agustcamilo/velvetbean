@@ -327,8 +327,25 @@ footer p {
     flex-direction: column;
     align-items: center;
   }
+  .main .contenedor-cafe {
+    grid-template-areas: "imagen" "descripcion" "btn-izq" "btn-der";
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .main .contenedor-cafe .contenedor-cafe-img {
+    grid-area: imagen;
+  }
+  .main .contenedor-cafe .contenedor-cafe-descripcion {
+    grid-area: descripcion;
+  }
+  .main .contenedor-cafe .contenedor-btn-izquierda {
+    grid-area: btn-izq;
+  }
+  .main .contenedor-cafe .contenedor-btn-derecha {
+    grid-area: btn-der;
+  }
 }
-@media (max-width: 978.98px) {
+@media (max-width: 767.98px) and (max-width: 978.98px) {
   .carrusel img {
     width: 400px;
     height: 500px;
@@ -389,7 +406,7 @@ footer p {
     /* O un valor menor, según se requiera */
   }
 }
-@media (max-width: 978.98px) {
+@media (max-width: 767.98px) and (max-width: 978.98px) {
   .sec-contenedor-contacto {
     display: flex;
     flex-direction: column;
@@ -426,25 +443,6 @@ footer p {
   .sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text .p-contacto-item-text-1 {
     font-size: 16px;
     margin-bottom: 40px;
-  }
-}
-@media (max-width: 768px) {
-  .contenedor-cafe {
-    grid-template-areas: "imagen" "descripcion" "btn-izq" "btn-der";
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-  .contenedor-cafe .contenedor-cafe-img {
-    grid-area: imagen;
-  }
-  .contenedor-cafe .contenedor-cafe-descripcion {
-    grid-area: descripcion;
-  }
-  .contenedor-cafe .contenedor-btn-izquierda {
-    grid-area: btn-izq;
-  }
-  .contenedor-cafe .contenedor-btn-derecha {
-    grid-area: btn-der;
   }
 }
 

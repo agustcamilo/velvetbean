@@ -32,124 +32,7 @@
             align-items: center;
         }
     }
-}
-
-@media (max-width: 978.98px) {
-    .carrusel {
-        img {
-            width: 400px;
-            height: 500px;
-            object-fit: cover;
-        }
-
-        .inicio {
-            padding: 15px;
-            margin: 10px;
-            font-size: 12px;
-            line-height: 1.5;
-            background-color: rgba(0, 0, 0, 0.6);
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-        }
-    }
-
-
-    .sec-destacado-contenedor {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
-        width: 80%;
-        margin: 0 auto;
-        text-align: center;
-        padding: 20px;
-        position: relative;
-        gap: 10px;
-        justify-items: center;
-
-        .p-destacado {
-            text-align: center;
-            margin-top: 40px;
-        }
-
-        .sec-destacado-item {
-            width: 250px;
-            height: 250px;
-            border: 2px solid black;
-            border-radius: 5px;
-            background-color: lightblue;
-            margin: 15px;
-            line-height: 150px;
-            float: left;
-            position: relative;
-
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-
-            .btn-comprar {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background-color: rgba(0, 0, 0, 0.767);
-                color: white;
-                border: none;
-                padding: 1px 5px;
-                cursor: pointer;
-                font-size: 1rem;
-                border-radius: 5px;
-                line-height: 4;
-                /* O un valor menor, según se requiera */
-            }
-        }
-    }
-}
-
-@media (max-width: 978.98px) {
-    .sec-contenedor-contacto {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        background-color: #111;
-        min-height: auto;
-        color: white;
-        padding: 20px 80px;
-        flex-wrap: wrap;
-        max-width: auto;
-
-        .sec-contenedor-contacto-seccion {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background-color: #111;
-            min-height: auto;
-            color: white;
-            padding: 0;
-            flex-wrap: wrap;
-            gap: 0;
-
-            .contacto-div-item-text {
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                align-items: center;
-
-                .p-contacto-item-tittle {
-                    font-size: 50px;
-                    margin-top: 10px;
-                }
-
-                .p-contacto-item-text-1 {
-                    font-size: 16px;
-                    margin-bottom: 40px;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 768px) {
+.main{
     .contenedor-cafe {
         grid-template-areas:
             "imagen"
@@ -174,6 +57,121 @@
         .contenedor-btn-derecha {
             grid-area: btn-der;
         }
+    }
+}
 
+    @media (max-width: 978.98px) {
+        .carrusel {
+            img {
+                width: 400px;
+                height: 500px;
+                object-fit: cover;
+            }
+
+            .inicio {
+                padding: 15px;
+                margin: 10px;
+                font-size: 12px;
+                line-height: 1.5;
+                background-color: rgba(0, 0, 0, 0.6);
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+            }
+        }
+
+
+        .sec-destacado-contenedor {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            gap: 10px;
+            justify-items: center;
+
+            .p-destacado {
+                text-align: center;
+                margin-top: 40px;
+            }
+
+            .sec-destacado-item {
+                width: 250px;
+                height: 250px;
+                border: 2px solid black;
+                border-radius: 5px;
+                background-color: lightblue;
+                margin: 15px;
+                line-height: 150px;
+                float: left;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                .btn-comprar {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: rgba(0, 0, 0, 0.767);
+                    color: white;
+                    border: none;
+                    padding: 1px 5px;
+                    cursor: pointer;
+                    font-size: 1rem;
+                    border-radius: 5px;
+                    line-height: 4;
+                    /* O un valor menor, según se requiera */
+                }
+            }
+        }
+    }
+
+    @media (max-width: 978.98px) {
+        .sec-contenedor-contacto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: #111;
+            min-height: auto;
+            color: white;
+            padding: 20px 80px;
+            flex-wrap: wrap;
+            max-width: auto;
+
+            .sec-contenedor-contacto-seccion {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: #111;
+                min-height: auto;
+                color: white;
+                padding: 0;
+                flex-wrap: wrap;
+                gap: 0;
+
+                .contacto-div-item-text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    .p-contacto-item-tittle {
+                        font-size: 50px;
+                        margin-top: 10px;
+                    }
+
+                    .p-contacto-item-text-1 {
+                        font-size: 16px;
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
     }
 }
