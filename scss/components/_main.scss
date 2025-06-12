@@ -219,7 +219,7 @@ main {
     .contenedor-cafe {
         display: grid;
         grid-template-areas:
-            "descripcion imagen"
+            "imagen descripcion"
             "btn-izq btn-der";
         grid-template-columns: 1fr 1fr;
         gap: 20px;
