@@ -311,16 +311,16 @@ footer p {
     flex-direction: column;
     align-items: center;
   }
-  .main .contenedor-cafe {
+  main .contenedor-cafe {
     grid-template-areas: "imagen" "descripcion" "btn-izq" "btn-der";
     grid-template-columns: 1fr;
     justify-items: center;
   }
-  .main .contenedor-cafe .contenedor-btn-izquierda,
-  .main .contenedor-cafe .contenedor-btn-derecha {
+  main .contenedor-cafe .contenedor-btn-izquierda,
+  main .contenedor-cafe .contenedor-btn-derecha {
     justify-content: center;
   }
-  .main .nosotros {
+  main .nosotros {
     grid-template-areas: "img1" "texto1" "img2" "texto2" "img3";
     grid-template-columns: 1fr;
   }
