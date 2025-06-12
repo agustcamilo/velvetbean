@@ -49,7 +49,6 @@
             .contenedor-btn-derecha {
                 justify-content: center;
             }
-        }
 
         .nosotros {
             grid-template-areas:
@@ -61,6 +60,7 @@
             grid-template-columns: 1fr;
         }
     }
+}
 
 @media (max-width: 978.98px) {
     .carrusel {

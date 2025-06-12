@@ -320,7 +320,7 @@ footer p {
   main .contenedor-btn-derecha {
     justify-content: center;
   }
-  .nosotros {
+  main .nosotros {
     grid-template-areas: "img1" "texto1" "img2" "texto2" "img3";
     grid-template-columns: 1fr;
   }
