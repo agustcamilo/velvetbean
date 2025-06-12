@@ -198,27 +198,6 @@ main {
             box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
         }
 
-        .nosotrosimg1 {
-            grid-area: img1;
-        }
-
-        .nosotros-texto1 {
-            grid-area: texto1;
-        }
-
-        .nosotros-texto2 {
-            grid-area: texto2;
-        }
-
-        .nosotrosimg2 {
-            grid-area: img2;
-        }
-
-        .nosotrosimg3 {
-            grid-area: img3;
-            text-align: center;
-        }
-
         h1 {
             font-size: 3rem;
             color: #4b2e05;
@@ -240,7 +219,7 @@ main {
     .contenedor-cafe {
         display: grid;
         grid-template-areas:
-            "imagen descripcion"
+            "descripcion imagen"
             "btn-izq btn-der";
         grid-template-columns: 1fr 1fr;
         gap: 20px;
