@@ -208,6 +208,7 @@ main {
 
     h1 {
       @extend %titulo-centrado;
+      color: $color-titulo;
     }
 
     p {
@@ -216,6 +217,7 @@ main {
       max-width: 700px;
       margin-left: auto;
       margin-right: auto;
+      color: $color-texto-contraste;
     }
   }
 

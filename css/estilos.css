@@ -250,11 +250,15 @@ main .nosotros .nosotrosimg2 {
 main .nosotros .nosotrosimg3 {
   grid-area: img3;
 }
+main .nosotros h1 {
+  color: #4b2e05;
+}
 main .nosotros p {
   margin-bottom: 22px;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  color: black;
 }
 main .contenedor-cafe {
   display: grid;
