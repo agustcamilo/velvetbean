@@ -215,7 +215,7 @@ main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-f
 }
 main .nosotros {
   display: grid;
-  grid-template-areas: "img1 texto1" "texto2 img2" "img3";
+  grid-template-areas: "img1 texto1" "texto2 img2" "img3 img3";
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding: 150px 20px;
@@ -289,7 +289,7 @@ main .contenedor-btn-derecha {
   grid-area: btn-der;
 }
 main #texto-descripcion {
-  color: white;
+  color: black;
   line-height: 1.6;
   text-align: center;
 }
