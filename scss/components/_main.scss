@@ -59,7 +59,7 @@ main {
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: rgba(0, 0, 0, 0.767);
-        color: white;
+        color: $color-texto;
         border: none;
         padding: 1px 5px;
         cursor: pointer;
@@ -73,8 +73,8 @@ main {
   // Contacto
   .sec-contenedor-contacto {
     @include flex(flex, center, flex-start);
-    background-color: #111;
-    color: white;
+    background-color: $color-navbar;
+    color: $color-texto;
     padding: 20px 80px;
     flex-wrap: wrap;
 
@@ -107,11 +107,11 @@ main {
 
         form {
           min-height: 100px;
-          background-color: #111;
+          background-color: $color-navbar;
           width: 100%;
           max-width: 800px;
           margin: auto;
-          color: white;
+          color: $color-texto;
 
           .sec-contenedor-datos {
             margin: 10px;
@@ -145,7 +145,7 @@ main {
               width: 100%;
               padding: 12px;
               background-color: #666;
-              color: white;
+              color: $color-texto;
               border: none;
               border-radius: 6px;
               cursor: pointer;
@@ -173,8 +173,6 @@ main {
     gap: 40px;
     padding: 150px 20px;
     background-color: $color-fondo;
-    justify-items: center;
-    align-items: center;
 
     >div {
       max-width: 900px;
@@ -243,9 +241,7 @@ main {
 
     .contenedor-cafe-descripcion {
       grid-area: descripcion;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      @include flexcontenedor(flex,column,center);
       padding: 10px;
     }
   }

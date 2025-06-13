@@ -1,6 +1,6 @@
 header {
     .navbar {
-        background-color: #222222;
+        background-color: $color-navbar;
         padding: 1rem 2rem;
 
         .header-logo {
@@ -15,7 +15,7 @@ header {
                 margin: 10px;
 
                 .nav-link {
-                    color: #e7dfd4 !important;
+                    color: $color-icon !important;
                     margin: 10px 30px;
                 }
             }

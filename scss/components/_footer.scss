@@ -1,11 +1,9 @@
 footer {
-    background-color: #0c0c0c;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    background-color: $color-navbar;
+    @include flex(flex,space-around,center);
 
     p {
-        color: white;
+        color: $color-texto;
         font-size: 14px;
         margin: 10px;
     }

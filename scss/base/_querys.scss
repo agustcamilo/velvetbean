@@ -1,7 +1,7 @@
 @media (max-width: 767.98px) {
     header {
         .navbar {
-            background-color: #222222;
+            background-color: $color-navbar;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -103,7 +103,6 @@
             height: 250px;
             border: 2px solid black;
             border-radius: 5px;
-            background-color: lightblue;
             margin: 15px;
             line-height: 150px;
             float: left;
@@ -134,32 +133,26 @@
     }
 
     .sec-contenedor-contacto {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @include flexcontenedor(flex, column, center);
         align-items: flex-start;
-        background-color: #111;
+        background-color: $color-navbar;
         min-height: auto;
-        color: white;
+        color: $color-texto;
         padding: 20px 80px;
         flex-wrap: wrap;
         max-width: auto;
 
         .sec-contenedor-contacto-seccion {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background-color: #111;
+            @include flexcontenedor(flex, column, center);
+            background-color: $color-navbar;
             min-height: auto;
-            color: white;
+            color: $color-texto;
             padding: 0;
             flex-wrap: wrap;
             gap: 0;
 
             .contacto-div-item-text {
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
+                @include flexcontenedor(flex,column,flex-start);
                 align-items: center;
 
                 .p-contacto-item-tittle {
