@@ -249,6 +249,8 @@ main .nosotros .nosotrosimg2 {
 }
 main .nosotros .nosotrosimg3 {
   grid-area: img3;
+  display: flex;
+  justify-content: center;
 }
 main .nosotros p {
   margin-bottom: 22px;

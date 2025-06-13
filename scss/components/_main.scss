@@ -204,7 +204,10 @@ main {
 
     .nosotrosimg3 {
       grid-area: img3;
+      display: flex;
+      justify-content: center;
     }
+
 
     h1 {
       @extend %titulo-centrado;
@@ -241,7 +244,7 @@ main {
 
     .contenedor-cafe-descripcion {
       grid-area: descripcion;
-      @include flexcontenedor(flex,column,center);
+      @include flexcontenedor(flex, column, center);
       padding: 10px;
     }
   }
