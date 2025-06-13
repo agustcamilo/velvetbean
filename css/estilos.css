@@ -227,16 +227,6 @@ main .nosotros > div {
   max-width: 900px;
   text-align: center;
 }
-main .nosotros img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-  border-radius: 12px;
-  max-height: 350px;
-  margin-bottom: 30px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-}
 main .nosotros .nosotrosimg1 {
   grid-area: img1;
 }
