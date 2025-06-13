@@ -244,9 +244,12 @@ main .nosotros img .nosotros-texto1 {
   grid-area: texto1;
 }
 main .nosotros img .nosotros-texto2 {
+  grid-area: texto2;
+}
+main .nosotros img .nosotrosimg2 {
   grid-area: img2;
 }
-main .nosotros img .nosotrosimg3 {
+main .nosotros img .nosotrosim3 {
   grid-area: img3;
 }
 main .nosotros p {
