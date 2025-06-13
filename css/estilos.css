@@ -9,7 +9,7 @@ main .contenedor-btn-derecha, main .contenedor-btn-izquierda {
 main .nosotros p, main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text .p-contacto-item-text-1 {
   font-size: 1.15rem;
   line-height: 1.7;
-  color: white;
+  color: black;
 }
 
 main .nosotros h1 {
@@ -258,7 +258,6 @@ main .nosotros p {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  color: black;
 }
 main .contenedor-cafe {
   display: grid;
