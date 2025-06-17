@@ -107,6 +107,9 @@ main .sec-destacado-contenedor .sec-destacado-item {
   position: relative;
   overflow: hidden;
 }
+main .sec-destacado-contenedor .sec-destacado-item .sec-destacado-item:hover {
+  transform: scale(2);
+}
 main .sec-destacado-contenedor .sec-destacado-item img {
   width: 100%;
   height: auto;

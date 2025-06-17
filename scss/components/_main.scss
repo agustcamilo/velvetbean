@@ -48,6 +48,9 @@ main {
       position: relative;
       overflow: hidden;
 
+      .sec-destacado-item:hover {
+        transform: scale(2);
+      }
       img {
         @include img-ajustada(0px);
         height: 100%;
