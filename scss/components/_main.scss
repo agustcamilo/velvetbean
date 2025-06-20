@@ -51,6 +51,7 @@ main {
       .sec-destacado-item:hover {
         transform: scale(2);
       }
+
       img {
         @include img-ajustada(0px);
         height: 100%;
@@ -98,8 +99,10 @@ main {
         }
 
         .p-contacto-item-text-1 {
-          @extend %parrafo;
+          font-size: 1.15rem;
+          line-height: 1.7;
           margin-bottom: 40px;
+          color: white;
         }
       }
 

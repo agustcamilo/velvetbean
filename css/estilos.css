@@ -6,10 +6,10 @@ main .contenedor-btn-derecha, main .contenedor-btn-izquierda {
   align-items: center;
 }
 
-main .nosotros p, main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text .p-contacto-item-text-1 {
+main .nosotros p {
   font-size: 1.15rem;
   line-height: 1.7;
-  color: white;
+  color: black;
 }
 
 main .nosotros h1 {
@@ -161,7 +161,10 @@ main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-ite
   margin-bottom: 10px;
 }
 main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .contacto-div-item-text .p-contacto-item-text-1 {
+  font-size: 1.15rem;
+  line-height: 1.7;
   margin-bottom: 40px;
+  color: white;
 }
 main .sec-contenedor-contacto .sec-contenedor-contacto-seccion .sec-contenedor-form {
   display: flex;
