@@ -371,6 +371,10 @@ footer p {
     grid-template-columns: 1fr;
     justify-items: center;
   }
+  main .img {
+    max-width: 100%;
+    height: auto;
+  }
   main .contenedor-btn-izquierda,
   main .contenedor-btn-derecha {
     justify-content: center;
