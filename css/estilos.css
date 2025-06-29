@@ -132,7 +132,7 @@ main .sec-destacado-contenedor .sec-destacado-item .btn-comprar {
   border-radius: 5px;
   line-height: 4;
 }
-main .sec-destacado-contenedor .sec-destacado-item .boton-comprar:hover {
+main .sec-destacado-contenedor .sec-destacado-item:hover {
   background: rgba(0, 0, 0, 0.886);
 }
 main .sec-contenedor-contacto {
