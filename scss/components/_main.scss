@@ -237,7 +237,7 @@ main {
     display: grid;
     grid-template-areas:
       "imagen descripcion"
-      "descripciontabla descripciontabla"
+      "descripcion2 descripcion2"
       "btn-izq btn-der";
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -259,28 +259,11 @@ main {
       padding: 10px;
     }
 
-    .contenedor-cafe-tabla {
-      grid-area: descripciontabla;
-      display: flex;
-      flex-direction: column;
-      align-items: center; 
-      justify-content: center; 
+    .contenedor-cafe-descripcion2 {
+      grid-area: descripcion2;
+      @include flexcontenedor(flex, column, center);
       padding: 10px;
-      table {
-        width: 100%; 
-        max-width: 900px;
-        table-layout: fixed; 
-        border-collapse: separate;
-        border-spacing: 40px 0;
-        th,
-        td {
-          text-align: center;
-          padding: 0.75rem 1.5rem; 
-        }
-      }
     }
-
-
   }
 
   // Botones
