@@ -72,7 +72,7 @@ main {
         line-height: 4;
       }
 
-      &:hover{
+      &:hover {
         background: rgba(0, 0, 0, 0.886)
       }
     }
@@ -237,7 +237,7 @@ main {
     display: grid;
     grid-template-areas:
       "imagen descripcion"
-       "descripciontabla descripciontabla"
+      "descripciontabla descripciontabla"
       "btn-izq btn-der";
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -263,6 +263,8 @@ main {
       grid-area: descripciontabla;
       @include flexcontenedor(flex, column, center);
       padding: 10px;
+      border-collapse: separate;
+      border-spacing: 25px 0;
     }
   }
 

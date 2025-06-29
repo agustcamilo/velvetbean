@@ -299,6 +299,8 @@ main .contenedor-cafe .contenedor-cafe-tabla {
   flex-direction: column;
   justify-content: center;
   padding: 10px;
+  border-collapse: separate;
+  border-spacing: 25px 0;
 }
 main .contenedor-btn-izquierda {
   grid-area: btn-izq;
