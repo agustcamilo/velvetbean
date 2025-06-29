@@ -237,7 +237,7 @@ main {
     display: grid;
     grid-template-areas:
       "imagen descripcion"
-      "descripcion2 descripcion2"
+      "descripcion2 imagen2"
       "btn-izq btn-der";
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -247,6 +247,14 @@ main {
 
     .contenedor-cafe-img {
       grid-area: imagen;
+
+      img {
+        @include img-ajustada(10px);
+      }
+    }
+
+    .contenedor-cafe-img2 {
+      grid-area: imagen2;
 
       img {
         @include img-ajustada(10px);

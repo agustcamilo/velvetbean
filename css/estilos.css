@@ -269,7 +269,7 @@ main .nosotros p {
 }
 main .contenedor-cafe {
   display: grid;
-  grid-template-areas: "imagen descripcion" "descripcion2 descripcion2" "btn-izq btn-der";
+  grid-template-areas: "imagen descripcion" "descripcion2 imagen2" "btn-izq btn-der";
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin: 150px 20px 50px 20px;
@@ -280,6 +280,16 @@ main .contenedor-cafe .contenedor-cafe-img {
   grid-area: imagen;
 }
 main .contenedor-cafe .contenedor-cafe-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+main .contenedor-cafe .contenedor-cafe-img2 {
+  grid-area: imagen2;
+}
+main .contenedor-cafe .contenedor-cafe-img2 img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -357,7 +367,7 @@ footer p {
 }
 @media (max-width: 767.98px) {
   main .contenedor-cafe {
-    grid-template-areas: "imagen" "descripcion" "btn-izq" "btn-der";
+    grid-template-areas: "imagen" "descripcion" "descripcion2" "imagen2" "btn-izq" "btn-der";
     grid-template-columns: 1fr;
     justify-items: center;
   }
