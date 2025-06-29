@@ -263,9 +263,17 @@ main {
       grid-area: descripciontabla;
       @include flexcontenedor(flex, column, center);
       padding: 10px;
-      border-collapse: separate;
-      border-spacing: 25px 0;
+      table {
+        border-collapse: separate;
+        border-spacing: 40px 0; 
+        text-align: center;
+      }
+      th,
+      td {
+        padding: 0.75rem 1.5rem;
+      }
     }
+
   }
 
   // Botones

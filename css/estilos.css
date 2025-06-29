@@ -299,8 +299,15 @@ main .contenedor-cafe .contenedor-cafe-tabla {
   flex-direction: column;
   justify-content: center;
   padding: 10px;
+}
+main .contenedor-cafe .contenedor-cafe-tabla table {
   border-collapse: separate;
-  border-spacing: 25px 0;
+  border-spacing: 40px 0;
+  text-align: center;
+}
+main .contenedor-cafe .contenedor-cafe-tabla th,
+main .contenedor-cafe .contenedor-cafe-tabla td {
+  padding: 0.75rem 1.5rem;
 }
 main .contenedor-btn-izquierda {
   grid-area: btn-izq;
