@@ -261,18 +261,25 @@ main {
 
     .contenedor-cafe-tabla {
       grid-area: descripciontabla;
-      @include flexcontenedor(flex, column, center);
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center; 
       padding: 10px;
       table {
+        width: 100%; 
+        max-width: 900px;
+        table-layout: fixed; 
         border-collapse: separate;
-        border-spacing: 40px 0; 
-        text-align: center;
-      }
-      th,
-      td {
-        padding: 0.75rem 1.5rem;
+        border-spacing: 40px 0;
+        th,
+        td {
+          text-align: center;
+          padding: 0.75rem 1.5rem; 
+        }
       }
     }
+
 
   }
 
