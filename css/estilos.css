@@ -276,25 +276,18 @@ main .contenedor-cafe {
   justify-items: center;
   align-items: center;
 }
+main .contenedor-cafe img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
 main .contenedor-cafe .contenedor-cafe-img {
   grid-area: imagen;
 }
-main .contenedor-cafe .contenedor-cafe-img img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-  border-radius: 10px;
-}
 main .contenedor-cafe .contenedor-cafe-img2 {
   grid-area: imagen2;
-}
-main .contenedor-cafe .contenedor-cafe-img2 img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-  border-radius: 10px;
 }
 main .contenedor-cafe .contenedor-cafe-descripcion {
   grid-area: descripcion;
@@ -370,10 +363,6 @@ footer p {
     grid-template-areas: "imagen" "descripcion" "descripcion2" "imagen2" "btn-izq" "btn-der";
     grid-template-columns: 1fr;
     justify-items: center;
-  }
-  main .img {
-    max-width: 100%;
-    height: auto;
   }
   main .contenedor-btn-izquierda,
   main .contenedor-btn-derecha {

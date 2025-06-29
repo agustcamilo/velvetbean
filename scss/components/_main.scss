@@ -245,20 +245,16 @@ main {
     justify-items: center;
     align-items: center;
 
+    img {
+      @include img-ajustada(10px);
+    }
+
     .contenedor-cafe-img {
       grid-area: imagen;
-
-      img {
-        @include img-ajustada(10px);
-      }
     }
 
     .contenedor-cafe-img2 {
       grid-area: imagen2;
-
-      img {
-        @include img-ajustada(10px);
-      }
     }
 
     .contenedor-cafe-descripcion {
